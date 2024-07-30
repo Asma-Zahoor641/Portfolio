@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script defer src="script.js"></script>
+    <title>Portfolio</title>
+  </head>
+  
+
+  <body>
+
+
+
+    <section id="home">
+      <div class="nav">
+        <div class="first-nav">
+          <img src="hamburger.svg" alt="hamburger" class="ham" />
+
+          <div class="left-nav">Asma's Portfolio</div>
+          <div class="right-nav">
+            <ul class="nav-list-first">
+              <a href="#home">
+                <li class="list-item">Home</li>
+              </a>
+              <a href="#about">
+                <li class="list-item">About</li>
+              </a>
+              <a href="#services">
+                <li class="list-item">Services</li>
+              </a>
+
+              <a href="#projects">
+                <li class="list-item">Projects</li>
+              </a>
+              <a href="#skills">
+                <li class="list-item">Skills</li>
+              </a>
+              <a href="#contact">
+                <li class="list-item">Contact me</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="second-nav">
+          <ul class="nav-list-second">
+            <a href="#home">
+              <li class="list-item">Home</li>
+            </a>
+            <a href="#about">
+              <li class="list-item">About</li>
+            </a>
+            <a href="#services">
+              <li class="list-item">Services</li>
+            </a>
+
+            <a href="#projects">
+              <li class="list-item">Projects</li>
+            </a>
+
+            <a href="#skills">
+              <li class="list-item">Skills</li>
+            </a>
+            <a href="#contact">
+              <li class="list-item">Contact me</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <main class="main">
+        <div class="left-main">
+          <div class="details">
+            <div class="line1">I'm <span id="name">Asma Zahoor</span></div>
+            <div class="line2"><span id="profession"></span></div>
+            <div class="line3">For More Details Click Below!</div>
+
+            <button class="btn">Download CV</button>
+          </div>
+        </div>
+
+        <div class="right-main">
+          <div class="image">
+            <img src="profile.png" alt="Asma Zahoor" id="logo" />
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <div class="separate"></div>
+    <section id="about">
+      <div class="about-container">
+        <div class="about-column">
+       <div class="heading">About me</div>
+          <div class="description">
+            <p>
+              I am Asma Zahoor, a passionate and dedicated Web Developer with a
+              strong background in Information Technology. With a keen eye for
+              detail and a commitment to delivering high-quality web. a
+              passionate and dedicated Web Developer with a strong background in
+              Information Technology. With a keen eye for detail and a
+              commitment to delivering high-quality web.
+            </p>
+          </div>
+        </div>
+        <div class="column details-column">
+          <div class="about-details">
+            <div class="box">
+              <span class="key personal">Personal Details</span>
+            </div>
+            <div class="box">
+              <span class="key">Name :</span>
+              <span class="value">Asma Zahoor</span>
+            </div>
+            <div class="box">
+              <span class="key">Country :</span>
+              <span class="value">Pakistan</span>
+            </div>
+            <div class="box">
+              <span class="key">Profession :</span>
+              <span class="value">Web Developer</span>
+            </div>
+            <div class="box">
+              <span class="key">Education :</span>
+              <span class="value">B_Science (IT)</span>
+            </div>
+            <div class="box">
+              <span class="key">Language :</span>
+              <span class="value">English, Urdu, Punjabi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separate"></div>
+
+    <section id="services">
+      <div class="heading">My Services</div>
+      <h1 class="service-tagline">
+        Crafting Digital Experiences with Precision and Passion
+      </h1>
+      <p class="des">
+        Turning your ideas into captivating, responsive websites and powerful
+        mobile apps, with elegant designs and seamless user experiences that
+        bring your vision to life.
+      </p>
+      <div class="services-container">
+        <div class="service-card">
+          <i class="fa-solid fa-code"></i>
+          <!-- <i class="icon">🖥️</i> -->
+
+          <h2 class="service-title">Web Development</h2>
+          <p class="description">
+            I have extensive experience in creating and customizing web
+            development sites, including e-commerce sites, and ensuring they are
+            optimized for search engines and user experience.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-database"></i>
+          <!-- <i class="icon">📱</i> -->
+
+          <h2 class="service-title">E-commerce Sites</h2>
+          <p class="description">
+            I have experience in creating and managing e-commerce sites using
+            platforms like Shopify, WooCommerce, and Magento.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h2 class="service-title">Customization and Updates</h2>
+          <p class="description">
+            I can help customize existing websites to meet your specific needs
+            and provide regular updates to keep your site running smoothly.
+          </p>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="separate"></div>
+    <section id="skills">
+      <div class="up-skill">
+        <div class="heading">My Skills</div>
+
+        <div class="circular-progress">
+          <div class="html-prog prog">
+            <div class="inner-html-prog inner-prog">
+              <span class="html-value">0%</span>
+              <span class="text">HTML</span>
+            </div>
+          </div>
+
+          <div class="css-prog prog">
+            <div class="inner-css-prog inner-prog">
+              <span class="css-value">0%</span>
+              <span class="text">CSS</span>
+            </div>
+          </div>
+
+          <div class="js-prog prog">
+            <div class="inner-js-prog inner-prog">
+              <span class="js-value">0%</span>
+              <span class="text">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="down-skill">
+        <div class="skill-content">
+          <span class="text">React-js</span>
+          <span class="react-value">0%</span>
+        </div>
+
+        <div class="react-proob linear-prob">
+          <div class="inner-react-prog inner-linear"></div>
+        </div>
+
+        <div class="skill-content">
+          <span class="text">Java</span>
+          <span class="java-value">0%</span>
+        </div>
+
+        <div class="java-proob linear-prob">
+          <div class="inner-java-prog inner-linear"></div>
+        </div>
+
+        <div class="skill-content">
+          <span class="text">DSA</span>
+          <span class="dsa-value">0%</span>
+        </div>
+
+        <div class="dsa-proob linear-prob">
+          <div class="inner-dsa-prog inner-linear"></div>
+        </div>
+
+        <div class="skill-content">
+          <span class="text">Python</span>
+          <span class="python-value">0%</span>
+        </div>
+
+        <div class="python-proob linear-prob">
+          <div class="inner-python-prog inner-linear"></div>
+        </div>
+      </div>
+    </section>
+    <div class="separate"></div>
+
+    <section id="projects">
+      <div class="heading">My Projects</div>
+      <div class="project-container">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="web.jpg" alt="Project 1" />
+            <div class="project-title">
+              <p>Responsive Website</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-description">
+              <p>
+                Creating a responsive website using HTML, CSS, and JavaScript.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://project1-demo.com" target="_blank">Demo</a>
+              <a href="https://github.com/username/project1" target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="web-app.jpg" alt="Project 2" />
+            <div class="project-title">
+              <p>Dynamic Web App</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-description">
+              <p>Creating a dynamic web application using React and Node.js.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://project2-demo.com" target="_blank">Demo</a>
+              <a href="https://github.com/username/project2" target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="ecommerce.jpg" alt="Project 3" />
+            <div class="project-title">
+              <p>E-commerce Platform</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-description">
+              <p>
+                Developing an e-commerce platform with a focus on user
+                experience.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://project3-demo.com" target="_blank">Demo</a>
+              <a href="https://github.com/username/project3" target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="android.jpg" alt="Project 4" />
+            <div class="project-title">
+              <p>Mobile App</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-description">
+              <p>Creating a mobile app using Flutter and Firebase.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://project4-demo.com" target="_blank">Demo</a>
+              <a href="https://github.com/username/project4" target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="chatboot.jpg" alt="Project 6" />
+            <div class="project-title">
+              <p>AI Chatbot</p>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-description">
+              <p>Creating an AI-powered chatbot using Python and TensorFlow.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://project6-demo.com" target="_blank">Demo</a>
+              <a href="https://github.com/username/project6" target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separate"></div>
+
+    <section id="contact-main">
+      <div class="heading">Contact Me</div>
+      <p class="contact-tagline">
+        Lets Connect to build something amazing together
+      </p>
+    </section>
+    <section id="contact">
+      .
+      <div class="left-contact">
+        <div class="left-contact-des">
+          <p id="one">Ways To Contact Me !</p>
+          <br />
+          <p id="two">Reach Out and Let's Innovate Together!</p>
+          <br />
+        </div>
+        <div class="icons-row">
+          <div class="icon"><img src="insta.svg" alt="Instagram" /></div>
+          <div class="icon"><img src="twitter.svg" alt="Twitter" /></div>
+          <div class="icon"><img src="linkedin.svg" alt="LinkedIn" /></div>
+          <div class="icon"><img src="github.svg" alt="GitHub" /></div>
+        </div>
+      </div>
+
+      <div class="right-contact">
+        <div class="heading-form">Have a Question?</div>
+
+        <form class="form">
+          <input type="text" placeholder="Enter Your Name" />
+          <input type="email" placeholder="Enter Your Email" />
+          <textarea
+            name="Message"
+            id="message"
+            col="5"
+            rows="4"
+            placeholder="Ask me Anything"
+          ></textarea>
+          <button class="btn-submit" style="width: 15vw; font-size: medium">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <div class="separate"></div>
+
+
+    <section id="testimonial">
+      <div class="heading">Client Testimonials</div>
+      <div class="testimonial-container">
+        <div class="testimonial-marquee">
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “I am very happy with the work done by your team. They have done
+                an amazing job. I will be recommending you to my friends and
+                family. Thank you so much.”
+              </p>
+              <div class="testimonial-name">John Doe</div>
+            </div>
+          </div>
+          <!-- Repeat this block for each testimonial -->
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “The service was exceptional and the team was very professional.
+                I couldn’t have asked for more. Highly recommended!”
+              </p>
+              <div class="testimonial-name">Jane Smith</div>
+            </div>
+          </div>
+         
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “Excellent experience from start to finish. The quality of work
+                is top-notch. Will definitely use their services again.”
+              </p>
+              <div class="testimonial-name">Alex Johnson</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “The service was exceptional and the team was very professional.
+                I couldn’t have asked for more. Highly recommended!”
+              </p>
+              <div class="testimonial-name">Emily Davis</div>
+            </div>
+          </div>
+    
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “The service was exceptional and the team was very professional.
+                I couldn’t have asked for more. Highly recommended!”
+              </p>
+              <div class="testimonial-name">Michael Brown</div>
+            </div>
+          </div>
+    
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “The service was exceptional and the team was very professional.
+                I couldn’t have asked for more. Highly recommended!”
+              </p>
+              <div class="testimonial-name">Olivia Wilson</div>
+            </div>
+          </div>
+    
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “The service was exceptional and the team was very professional.
+                I couldn’t have asked for more. Highly recommended!”
+              </p>
+              <div class="testimonial-name">Daniel Garcia</div>
+            </div>
+          </div>
+    
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img src="profile.png" alt="testimonial" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                “The service was exceptional and the team was very professional.
+                I couldn’t have asked for more. Highly recommended!”
+              </p>
+              <div class="testimonial-name">Sophia Martinez</div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <div class="separate"></div>
+
+
+    <section id="news">
+      <div class="newsletter">
+        <label for="email">Newsletter</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+        <button  class="n1"onclick="subscribe()">Subscribe</button>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-text">
+        <p>Copyright © 2024. All rights reserved.</p>
+      </div>
+     
+    </footer>
+
+
+
+
+     </body>
+</html>
